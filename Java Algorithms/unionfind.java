@@ -1,5 +1,5 @@
-public Main {
-    ublic static void mains (String[]args){
+ Main {
+    public static void mains (String[]args){
         int N = StdIn.readInt();
         UF uf = new UF(N);
         while (!StdIn.isEmpty()) {
@@ -11,4 +11,4 @@ public Main {
         }
         uf.union(0, 1);
     }
-}
+H
