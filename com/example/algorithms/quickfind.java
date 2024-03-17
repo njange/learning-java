@@ -1,3 +1,5 @@
+package com.example.algorithms;  // Replace with a valid package name
+
 public class quickfind {
     private int[] id;
 
