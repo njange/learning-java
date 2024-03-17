@@ -1,4 +1,4 @@
- Main {
+public Main {
     public static void mains (String[]args){
         int N = StdIn.readInt();
         UF uf = new UF(N);
@@ -11,5 +11,5 @@
         }
         uf.union(0, 1);
     }
-    
+
  }
