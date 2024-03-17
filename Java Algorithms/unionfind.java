@@ -1,15 +1,14 @@
-public Main {
-    public static void mains (String[]args){
+public class unionfind {
+    public static void main(String[] args) {
         int N = StdIn.readInt();
         UF uf = new UF(N);
         while (!StdIn.isEmpty()) {
             int p = StdIn.readInt();
             int q = StdIn.readInt();
-            if (uf.connected(p, q)) continue;
-            uf.union(p, q);
-            StdOut.println(p + " " + q);
+            if (!uf.connected(p, q)) {
+                uf.union(p, q);
+                StdOut.println(p + " " + q);
+            }
         }
-        uf.union(0, 1);
     }
-
- }
+}
