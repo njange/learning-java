@@ -16,6 +16,11 @@ public class datatypes {
         System.out.println("Float: " + f);
         System.out.println("Double: " + d);
 
+
+        char ch = 'A';
+        System.out.println("Char: " + ch);
+        
+
         System.out.println();
     }
     
