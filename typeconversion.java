@@ -9,6 +9,12 @@ public class typeconversion {
         float f = 10.5f;
         int j = (int) f;
         System.out.println("Float: " + j);
+
+        byte b1 = 10;
+        byte b2 = 30;
+
+        int b3 = b1 * b2;
+        System.out.println(b3);
     }
 
 }
