@@ -19,7 +19,10 @@ public class datatypes {
 
         char ch = 'A';
         System.out.println("Char: " + ch);
-        
+
+        boolean b = true;
+        System.out.println("Boolean: " + b);
+
 
         System.out.println();
     }
