@@ -4,7 +4,7 @@ public class typeconversion {
         int i = b;
 
         b = (byte) i;
-        System.out.println("Byte: " + i);
+        System.out.println("Byte: " + b);
 
         float f = 10.5f;
         int j = (int) f;
