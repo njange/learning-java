@@ -13,7 +13,7 @@ public class ifelse {
 
         int y = 10;
         if(y>x){
-            System.out.println(y)
+            System.out.println(y);
         } else {
             System.out.println(x);
         }
