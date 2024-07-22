@@ -13,7 +13,7 @@ public class switchstatements {
         System.out.println("Thursday");
         else if (n==6)
         System.out.println("Friday");
-        else if (n==7)
+        else
         System.out.println("Saturday");
     }
     
